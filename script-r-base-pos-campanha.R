@@ -24,11 +24,12 @@ library(shiny)
 #######################################################################################
 
 #Autenticador via Aouth
-client.id <- "405091759937-dqa6lauatrcm26eaagjvr1v83qke77j3.apps.googleusercontent.com"
-client.secret <- "ojN4-PpxYPwrz4aUh46B8tei"
+#Entre em contato conosco para obter o client id e o client secret.
+client.id <- ""
+client.secret <- ""
 
-options(googleAuthR.client_id = "405091759937-dqa6lauatrcm26eaagjvr1v83qke77j3.apps.googleusercontent.com")
-options(googleAuthR.client_secret = "ojN4-PpxYPwrz4aUh46B8tei")
+options(googleAuthR.client_id = client.id)
+options(googleAuthR.client_secret = client.secret)
 options(googleAuthR.scopes.selected = "https://www.googleapis.com/auth/analytics")
 
 #Ao executar esse comando, abrirá uma página no seu browser que será necessário autenticar com seu usuário e senha do Analytics
